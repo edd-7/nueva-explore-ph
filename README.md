@@ -28,12 +28,4 @@ It features location-based viewing with Maps integration to help users explore n
 | **React Router DOM** | Client-side routing for navigation |
 | **GitHub Pages** | Hosting and deployment |
 
----
-
-## ⚙️ Project Setup
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/edd-7/nueva-explore-ph.git
-cd nueva-explore-ph
 
