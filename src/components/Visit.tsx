@@ -69,11 +69,6 @@ const Visit = () => {
                 <p>Jeepneys, tricycles, and habal-habal (motorcycle taxis) are readily available for getting around the province.</p>
               </div>
             </div>
-            <div className="mt-8 text-center">
-              <Button size="lg" className="accent-glow">
-                Download Travel Guide
-              </Button>
-            </div>
           </CardContent>
         </Card>
       </div>

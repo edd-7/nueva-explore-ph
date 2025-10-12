@@ -32,18 +32,25 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-smooth ${
-        isScrolled ? "bg-background/95 backdrop-blur-md shadow-lg" : "bg-transparent"
+      className={`fixed  top-0 left-0 right-0 z-50 transition-smooth px-3 ${
+        isScrolled ? "bg-background/95 backdrop-blur-md shadow-lg" : "bg-transparent backdrop-blur-md shadow-lg"
       }`}
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <button
-            onClick={() => scrollToSection("home")}
-            className="text-2xl font-bold text-primary hover:text-primary/80 transition-smooth"
-          >
-            Nueva Ecija Explorer
-          </button>
+     <div className="flex items-center gap-3">
+      <img
+        src="/src/assets/logo.png" // <-- change this path if needed
+        alt="Logo"
+        className="w-10 h-10 object-contain"
+      />
+      <button
+        onClick={() => scrollToSection("home")}
+        className="text-2xl font-bold text-success hover:text-primary/80 transition-smooth"
+      >
+        Nueva Ecija Explorer
+      </button>
+    </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
