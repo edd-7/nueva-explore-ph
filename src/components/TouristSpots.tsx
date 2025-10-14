@@ -55,7 +55,7 @@ const TouristSpots = () => {
                 </div>
                 <CardContent className="p-6">
                   <p className="text-muted-foreground line-clamp-3 mb-4">
-                    {spot.description}
+                    {spot.shortdescription}
                   </p>
                   <div className="flex items-center text-primary font-semibold group-hover:gap-2 transition-smooth">
                     View Details
