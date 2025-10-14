@@ -4,14 +4,14 @@ import path from "path";
 
 export default defineConfig(({ mode }) => ({
   base: "/nueva-explore-ph/",
-  server: {
-    host: "::",
-    port: 8080,
-  },
+  // server: {
+  //   host: "::",
+  //   port: 8080,
+  // },
   plugins: [react()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     "@": path.resolve(__dirname, "./src"),
+  //   },
+  // },
 }));
