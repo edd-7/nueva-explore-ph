@@ -17,7 +17,7 @@ const Visit = () => {
     {
       icon: Mail,
       title: "Email",
-      details: "tourism@nuevaecija.gov.ph",
+      details: "nuevaecijaexplorer@gmail.com",
     },
     {
       icon: Calendar,

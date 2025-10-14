@@ -23,7 +23,7 @@ const TouristSpotModal = ({ spot, isOpen, onClose }: TouristSpotModalProps) => {
 
         <div className="space-y-6">
           {/* Image */}
-          <div className="w-full h-64 rounded-lg overflow-hidden">
+          <div className="w-full h-100 rounded-lg overflow-hidden">
             <img
               src={spot.image}
               alt={spot.name}
