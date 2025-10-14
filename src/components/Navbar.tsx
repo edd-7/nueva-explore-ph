@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png"
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,7 +41,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
      <div className="flex items-center gap-3">
       <img
-        src="../assets/logo.png" 
+        src={logo}
         alt="Logo"
         className="w-10 h-10 object-contain"
       />
